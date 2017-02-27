@@ -1,0 +1,1 @@
+chown system system /proc/touchpanel/capacitive_keys_enable
