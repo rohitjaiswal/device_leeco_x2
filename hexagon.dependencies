@@ -5,7 +5,7 @@
     "branch": "cm-14.1"
   },
   {
-    "repository": "LineageOS/android_kernel_leeco_msm8996",
+    "repository": "shivatejapeddi/android_kernel_leeco_msm8996",
     "target_path": "kernel/leeco/msm8996",
     "branch": "cm-14.1"
   },
