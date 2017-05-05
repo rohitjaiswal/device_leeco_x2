@@ -34,7 +34,7 @@ TARGET_VENDOR := leeco
 
 # Hexagon Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="shiva"
+    DEVICE_MAINTAINERS="Shiva Teja (shivatejapeddi)"
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
