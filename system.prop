@@ -6,24 +6,7 @@ ro.config.product=x2
 ro.internal.model=Le X820
 ro.config.le_hardware_version=HW_1.0.0
 ro.le.mtpname=Le Max2
-
-persist.sys.media.use-awesome=1
-sys.keep_app_1=com.bel.android.dspmanager
-ro.audio.samplerate=48000
-ro.audio.pcm.samplerate=48000
-af.resampler.quality=255
-af.resample=52000
-persist.audio.vr.enable=false
-persist.audio.handset.mic=analog
-persist.audio.lowlatency.rec=false
-persist.audio.dualmic.config=false
-
-ro.audio.flinger_standbytime_ms=300
-
-# Camera
-persist.camera.stats.test=5
-
-qcom.hw.aac.encoder=true
+persist.sys.le_fast_chrg_enable=1
 
 # Fingerprint
 persist.qfp=true
@@ -62,3 +45,14 @@ persist.loc.nlp_name=com.qualcomm.location
 # Screen Density
 ro.sf.lcd_density=560
 
+# Build.prop tweaks
+setprop media.stagefright.enable-player true
+setprop media.stagefright.enable-scan true
+setprop media.stagefright.enable-http true
+setprop media.stagefright.enable-record false
+setprop media.stagefright.enable-aac true
+setprop media.stagefright.enable-qcp true
+setprop persist.camera.capture.animate 1
+setprop persist.camera.tintless disable
+setprop persist.camera.qcom.misc 1
+setprop persist.hwc.dynamicfps 60
