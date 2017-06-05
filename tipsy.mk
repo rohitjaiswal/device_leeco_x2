@@ -18,15 +18,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/leeco/x2/device.mk)
 
 # Inherit some common gzr  stuff.
-$(call inherit-product, vendor/validus/config/common.mk)
-$(call inherit-product, vendor/validus/config/common_full_phone.mk)
-$(call inherit-product, vendor/validus/config/caf_fw.mk)
-$(call inherit-product, vendor/validus/config/gsm.mk)
+$(call inherit-product, vendor/tipsy/config/common.mk)
+$(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
+#$(call inherit-product, vendor/tipsy/config/caf_fw.mk)
+#$(call inherit-product, vendor/tipsy/config/gsm.mk)
 
 # Inherit telephony stuff
-#$(call inherit-product, vendor/validus/config/telephony.mk)
+#$(call inherit-product, vendor/tipsy/config/telephony.mk)
 
-PRODUCT_NAME := validus_x2
+PRODUCT_NAME := tipsy_x2
 PRODUCT_DEVICE := x2
 PRODUCT_MANUFACTURER := LeMobile
 PRODUCT_BRAND := LeEco
