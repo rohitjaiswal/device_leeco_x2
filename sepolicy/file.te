@@ -1,5 +1,3 @@
 # For qfp-daemon
 type persist_qc_senseid_file, file_type;
 
-type proc_touchpanel, fs_type;
-
