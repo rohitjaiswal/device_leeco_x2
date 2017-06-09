@@ -3,7 +3,7 @@
     "remote":       "github",
     "repository":   "rohitjaiswal/device_leeco_x2",
     "target_path":  "device/leeco/x2",
-    "branch":       "viper-n7.1"
+    "branch":       "aex-n7.1"
   },
   {
     "remote":       "github",
@@ -22,18 +22,6 @@
     "repository":   "TheMuppets/proprietary_vendor_leeco",
     "target_path":  "vendor/leeco",
     "branch":       "cm-14.1"
-  },
-  {
-    "remote":       "github",
-    "repository":   "LineageOS/android_device_qcom_common",
-    "target_path":  "device/qcom/common",
-    "revision":     "cm-14.1"
-  },
-  {
-    "remote":       "github",
-    "repository":   "LineageOS/android_external_stlport",
-    "target_path":  "external/stlport",
-    "revision":     "cm-14.1"
   },
   {
     "remote":       "github",
